@@ -1,0 +1,41 @@
+body {
+    background: url("Nature.jpg.jpg");
+    background-size: cover;
+    font-style: italic;
+}
+#run{
+    max-width: 425px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0,0, 0.8);
+    box-sizing: border-box;
+    padding: 5px;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+}
+input[type=text],input[type=password],input[type=number],input[type=date] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(0, 0, 0, 0.10);
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    background: #70adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+}
+input[type=submit]:hover {
+    background: #003366;
+    opacity: 0.8;
+}
